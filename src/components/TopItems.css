@@ -35,3 +35,14 @@
 .top-content h1 {
     color: hsl(233, 8%, 79%);
 }
+
+@media (min-width: 376px) {
+    .top-items ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .top-items li {
+        margin-right: .5em;
+    }
+}

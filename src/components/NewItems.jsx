@@ -27,7 +27,7 @@ const NewItems = () => {
     return (
         <>
             <section className='new-items'>
-            <h2>New</h2>
+            <h1>New</h1>
 
             <ul>
               {

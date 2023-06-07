@@ -30,3 +30,11 @@ main {
 .intro-img img {
     width: 100%;
 }
+
+
+@media (min-width: 376px) {
+    .main-section {
+        display: flex;
+    }
+
+}

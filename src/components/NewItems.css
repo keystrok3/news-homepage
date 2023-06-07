@@ -3,13 +3,13 @@
     background-color: hsl(240, 100%, 5%);
     color: hsl(36, 100%, 99%);
     padding: 1em;
-    margin: 2em 0;
+    /* margin: 2em 0; */ 
 }
 
 .new-items p {
     color: hsl(233, 8%, 79%);
 }
-.new-items h2 {
+.new-items h1 {
     color: hsl(35, 77%, 62%);
 }
 
@@ -20,6 +20,17 @@
 
 .new-items li {
     margin: 1em 0;
+}
+
+
+@media (min-width: 376px) {
+    .new-items {
+        margin-left: 1.5em;
+    }
+
+    .new-items h1{
+        margin: .5em 0;
+    }
 }
 
 hr {

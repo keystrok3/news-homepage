@@ -1,10 +1,12 @@
 import './App.css'
 import Header from './components/Header'
 import imageMainMobile from './assets/image-web-3-mobile.jpg';
+import imageMainDesktop from './assets/image-web-3-desktop.jpg';
 import NewItems from './components/NewItems';
 import TopItems from './components/TopItems';
 import NavModal from './components/NavModal';
 import { useState } from 'react';
+import ResponsiveImage from './components/ResponsiveImage';
 
 function App() {
 
@@ -27,7 +29,7 @@ function App() {
         <div className='main-section'>
           <section className='intro'>
             <div className='intro-img'>
-              <img src={imageMainMobile}/>
+              <ResponsiveImage small={imageMainMobile} big={imageMainDesktop}/>
             </div>
             <div className='intro-welcome'>
               <h1 style={{ margin: ".5em 0"}}>The Bright Future of Web 3.0?</h1>
